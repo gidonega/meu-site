@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Site do Panda</title>
+    <link rel="stylesheet" type="text/css" href="css-geovana.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é o meu primeiro site!">
+    <meta name="keywords" content="programacao,html,css,javascript">
+    <meta name="author" content="Geovana Donega">
+</head>
+<body>
+    <!--    
+    <b></b> - negrito
+    <strong> </strong>- negrito(enfase)
+    <i></i>- italico
+    <hr> -linha de divisao
+    <br> - pular -linha
+    <small></small> -texto pequeno
+    <del></del>- riscado
+    <sup></sup> -superior
+    <mark></mark> - marcaçao
+    -->
+
+
+    <h1> AULA DE HTML</h1>
+
+    <ul class="lista">
+        <li>html</li>
+        <li>javascript</li>
+        <li>css</li>
+    </ul>
+
+    <h1>Elementos de citação</h1>
+    <p>Estamos aprendendo<abbr title="hyper text markup languege">HTML></abbr></p>
+    <p>Você conhece o inicio de um site com<abbr title="world wide web">WWW></abbr></p>
+    <p>
+        Geovana
+        <address>
+            Rua Jõao Carbonari Jr,324,centro,são paulo;
+        </address>  
+    </p>
+    <p>O filme <cite>Titanic</cite> com Leonardo de Caprio. Ele disse:
+    <q>Rose por que eu não consigo subir nessa porta. Cabe nós dois tranquilo!</q></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, consectetur eaque qui quibusdam ex atque ea nisi vero libero nemo provident cupiditate nulla quos maxime, 
+    consequuntur voluptate est reprehenderit voluptatum.</p>
+
+        <blockquote>
+            Ela com certaza conseguiria ajudar o jacck!
+        </blockquote>
+    <h1><u>O que são <i>tags?</i></u></h1>
+    </p>Este texto trata especificamente dos marcadores. Todas as páginas de um site ou blog podem ser associadas a tags. Se você está fazendo um texto sobre carros japoneses tunados, 
+    por exemplo, pode marca-lo com os termos “carros”<br>, “carros japoneses”, “carros tunados” etc </p>
+    <h3>quais são as tags html mais comuns?</h3>
+    </p> code,isn,del</p>
+    <h4>  </h4>
+    </p>
+    <img src="https://s4.static.brasilescola.uol.com.br/img/2019/09/panda.jpg" width="50%" height="50%"></p>
+    <div>
+        <label for="nome"></label>Nome:</label>
+            <input type="text" id="nome" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="estados">Estados:</label>
+            <select name="estados-brasil" id="estados-brasil">
+            <option value="" defout></option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="PA">Pará</option>
+            <option value="MS">Mato Grosso do Sul</option>
+	        <option value="MG">Minas Gerais</option>
+            </select>
+        <button onclick="Mensagem()">Enviar</button>
+    </div> 
+        <script>
+            function Mensagem(){
+                var input_nome = document. querySelector("#nome");
+                var nome = input_nome. value;
+                //
+                var input_email = document. querySelector("#email");
+                var email = input_email. value;
+                //
+                var input_uf = document. querySelector("#estados-brasil");
+                var uf = input_uf. value;
+                //
+                alert('nome: '+nome+', email: '+email+', uf: '+uf);
+            }
+        </script>
+</div>
+
+</body>
+</html></div>
